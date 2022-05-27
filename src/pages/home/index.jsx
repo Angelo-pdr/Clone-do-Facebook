@@ -13,15 +13,13 @@ export const Home = () => {
             </C.Description>
             <C.AreaForm>
                 <C.AreaRegister>
-                   <C.InputArea>
                     <C.Label>
-                            <input type="text"  placeholder="Email ou Telefone"/>
-                        </C.Label>
-
-                        <C.Label>
-                            <input type="password" placeholder="Senha" />
-                        </C.Label>
-                   </C.InputArea>
+                        <input type="text"  placeholder="Email ou Telefone"/>
+                    </C.Label>
+                    
+                    <C.Label>
+                        <input type="password" placeholder="Senha" />
+                    </C.Label>
                 </C.AreaRegister>
             </C.AreaForm>
         </C.Container>
