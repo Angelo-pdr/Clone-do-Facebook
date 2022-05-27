@@ -11,9 +11,19 @@ export const Home = () => {
                 O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.
                 </h2>
             </C.Description>
-            <C.FormArea>
+            <C.AreaForm>
+                <C.AreaRegister>
+                   <C.InputArea>
+                    <C.Label>
+                            <input type="text"  placeholder="Email ou Telefone"/>
+                        </C.Label>
 
-            </C.FormArea>
+                        <C.Label>
+                            <input type="password" placeholder="Senha" />
+                        </C.Label>
+                   </C.InputArea>
+                </C.AreaRegister>
+            </C.AreaForm>
         </C.Container>
     )
 }
