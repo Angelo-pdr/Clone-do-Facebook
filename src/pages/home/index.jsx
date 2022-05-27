@@ -16,11 +16,12 @@ export const Home = () => {
                     <C.Label>
                         <input type="text"  placeholder="Email ou Telefone"/>
                     </C.Label>
-                    
                     <C.Label>
                         <input type="password" placeholder="Senha" />
                     </C.Label>
+                    <C.Button>Entrar</C.Button>
                 </C.AreaRegister>
+                <p><a href="">Criar uma Página</a> para uma celebridade, uma marca ou uma empresa.</p>
             </C.AreaForm>
         </C.Container>
     )
